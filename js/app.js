@@ -3,7 +3,7 @@ displayNotes();
 // If user add note, add it to the local storage
 
 let addBtn = document.getElementById("addBtn");
-addBtn.addEventListener("click", function(e) {
+addBtn.addEventListener("click", function() {
 
     let addTxt = document.getElementById("addTxt");
     let notes = localStorage.getItem("notes");
