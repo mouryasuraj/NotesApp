@@ -49,12 +49,17 @@
         <h1>Welcome to Fair Notes</h1>
         <div class="card">
             <div class="card-body">
+                <div class="mb-3">
+                    <label for="addTitle" class="form-label"> <b>Note title</b> </label>
+                    <input type="text" class="form-control" id="addTitle" placeholder="Enter title">
+
+                </div>
                 <h5 class="card-title">Add a note</h5>
                 <div class="input-group">
 
-                    <textarea class="form-control" id="addTxt"></textarea>
+                    <textarea class="form-control" id="addTxt" placeholder="Add your note"></textarea>
                 </div>
-                <button class="btn btn-primary my-3" onclick="error()" id="addBtn">Add Note</button>
+                <button class="btn btn-primary my-3" id="addBtn">Add Note</button>
             </div>
         </div>
         <hr>
